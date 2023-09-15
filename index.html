@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+       
+        <main>
+            <header>
+                <h1>Scoreboard</h1>
+            </header>
+            <div class="content">
+                <div class="contentValue">
+                    <div class="team-info">
+                        <h1 id="team1">Bananaland</h1>
+                        <input id="ubahNama1" type="text">
+                        <button onclick="changeName()">Change</button>
+                    </div>
+                    <div id="score1" class="score1 fonts">
+                        <h1>0</h1>
+                    </div>
+                    <div class="buttonAction">
+                        <div class="buttonTambah">
+                            <button id="buttonKurang1"><span class="material-symbols-outlined">remove</span></button>
+                        </div>
+                        <div class="buttonKurang">
+                            <button id="buttonTambah1"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentValue">
+                    <div class="team-info">
+                        <h1 id="team2">Oranges United!</h1>
+                        <input id="ubahNama2" type="text">
+                        <button onclick="changeName()">Change</button>
+                    </div>
+                    <div id="score2" class="score2 fonts">
+                        <h1>0</h1>
+                    </div>
+                    <div class="buttonAction">
+                        <div class="buttonTambah">
+                            <button id="buttonKurang2"><span class="material-symbols-outlined">remove</span></button>
+                        </div>
+                        <div class="buttonKurang">
+                            <button id="buttonTambah2"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </main>
+
+        <script src="assets/scripts/index.js"></script>
+</body>
+</html>
